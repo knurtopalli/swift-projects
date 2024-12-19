@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE4CD0782CDBBDC2002D00D0 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE4CD0772CDBBDC2002D00D0 /* CoreLocation.framework */; };
+		EE4CD07A2CDBBDC9002D00D0 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE4CD0792CDBBDC9002D00D0 /* MapKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EE4CD0592CDBBDAB002D00D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE4CD03A2CDBBDA9002D00D0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE4CD0412CDBBDA9002D00D0;
+			remoteInfo = "Core Location ve Map Kit Kullanimi";
+		};
+		EE4CD0632CDBBDAB002D00D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE4CD03A2CDBBDA9002D00D0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE4CD0412CDBBDA9002D00D0;
+			remoteInfo = "Core Location ve Map Kit Kullanimi";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EE4CD0422CDBBDA9002D00D0 /* Core Location ve Map Kit Kullanimi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Core Location ve Map Kit Kullanimi.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE4CD0582CDBBDAB002D00D0 /* Core Location ve Map Kit KullanimiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Core Location ve Map Kit KullanimiTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE4CD0622CDBBDAB002D00D0 /* Core Location ve Map Kit KullanimiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Core Location ve Map Kit KullanimiUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE4CD0772CDBBDC2002D00D0 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		EE4CD0792CDBBDC9002D00D0 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		EE4CD06A2CDBBDAB002D00D0 /* Exceptions for "Core Location ve Map Kit Kullanimi" folder in "Core Location ve Map Kit Kullanimi" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = EE4CD0412CDBBDA9002D00D0 /* Core Location ve Map Kit Kullanimi */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		EE4CD0442CDBBDA9002D00D0 /* Core Location ve Map Kit Kullanimi */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				EE4CD06A2CDBBDAB002D00D0 /* Exceptions for "Core Location ve Map Kit Kullanimi" folder in "Core Location ve Map Kit Kullanimi" target */,
+			);
+			path = "Core Location ve Map Kit Kullanimi";
+			sourceTree = "<group>";
+		};
+		EE4CD05B2CDBBDAB002D00D0 /* Core Location ve Map Kit KullanimiTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Core Location ve Map Kit KullanimiTests";
+			sourceTree = "<group>";
+		};
+		EE4CD0652CDBBDAB002D00D0 /* Core Location ve Map Kit KullanimiUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Core Location ve Map Kit KullanimiUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE4CD03F2CDBBDA9002D00D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE4CD07A2CDBBDC9002D00D0 /* MapKit.framework in Frameworks */,
+				EE4CD0782CDBBDC2002D00D0 /* CoreLocation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE4CD0552CDBBDAB002D00D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE4CD05F2CDBBDAB002D00D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE4CD0392CDBBDA9002D00D0 = {
+			isa = PBXGroup;
+			children = (
+				EE4CD0442CDBBDA9002D00D0 /* Core Location ve Map Kit Kullanimi */,
+				EE4CD05B2CDBBDAB002D00D0 /* Core Location ve Map Kit KullanimiTests */,
+				EE4CD0652CDBBDAB002D00D0 /* Core Location ve Map Kit KullanimiUITests */,
+				EE4CD0762CDBBDC2002D00D0 /* Frameworks */,
+				EE4CD0432CDBBDA9002D00D0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE4CD0432CDBBDA9002D00D0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE4CD0422CDBBDA9002D00D0 /* Core Location ve Map Kit Kullanimi.app */,
+				EE4CD0582CDBBDAB002D00D0 /* Core Location ve Map Kit KullanimiTests.xctest */,
+				EE4CD0622CDBBDAB002D00D0 /* Core Location ve Map Kit KullanimiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE4CD0762CDBBDC2002D00D0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EE4CD0792CDBBDC9002D00D0 /* MapKit.framework */,
+				EE4CD0772CDBBDC2002D00D0 /* CoreLocation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE4CD0412CDBBDA9002D00D0 /* Core Location ve Map Kit Kullanimi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE4CD06B2CDBBDAB002D00D0 /* Build configuration list for PBXNativeTarget "Core Location ve Map Kit Kullanimi" */;
+			buildPhases = (
+				EE4CD03E2CDBBDA9002D00D0 /* Sources */,
+				EE4CD03F2CDBBDA9002D00D0 /* Frameworks */,
+				EE4CD0402CDBBDA9002D00D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				EE4CD0442CDBBDA9002D00D0 /* Core Location ve Map Kit Kullanimi */,
+			);
+			name = "Core Location ve Map Kit Kullanimi";
+			packageProductDependencies = (
+			);
+			productName = "Core Location ve Map Kit Kullanimi";
+			productReference = EE4CD0422CDBBDA9002D00D0 /* Core Location ve Map Kit Kullanimi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EE4CD0572CDBBDAB002D00D0 /* Core Location ve Map Kit KullanimiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE4CD0702CDBBDAB002D00D0 /* Build configuration list for PBXNativeTarget "Core Location ve Map Kit KullanimiTests" */;
+			buildPhases = (
+				EE4CD0542CDBBDAB002D00D0 /* Sources */,
+				EE4CD0552CDBBDAB002D00D0 /* Frameworks */,
+				EE4CD0562CDBBDAB002D00D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE4CD05A2CDBBDAB002D00D0 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				EE4CD05B2CDBBDAB002D00D0 /* Core Location ve Map Kit KullanimiTests */,
+			);
+			name = "Core Location ve Map Kit KullanimiTests";
+			packageProductDependencies = (
+			);
+			productName = "Core Location ve Map Kit KullanimiTests";
+			productReference = EE4CD0582CDBBDAB002D00D0 /* Core Location ve Map Kit KullanimiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EE4CD0612CDBBDAB002D00D0 /* Core Location ve Map Kit KullanimiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE4CD0732CDBBDAB002D00D0 /* Build configuration list for PBXNativeTarget "Core Location ve Map Kit KullanimiUITests" */;
+			buildPhases = (
+				EE4CD05E2CDBBDAB002D00D0 /* Sources */,
+				EE4CD05F2CDBBDAB002D00D0 /* Frameworks */,
+				EE4CD0602CDBBDAB002D00D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE4CD0642CDBBDAB002D00D0 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				EE4CD0652CDBBDAB002D00D0 /* Core Location ve Map Kit KullanimiUITests */,
+			);
+			name = "Core Location ve Map Kit KullanimiUITests";
+			packageProductDependencies = (
+			);
+			productName = "Core Location ve Map Kit KullanimiUITests";
+			productReference = EE4CD0622CDBBDAB002D00D0 /* Core Location ve Map Kit KullanimiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE4CD03A2CDBBDA9002D00D0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					EE4CD0412CDBBDA9002D00D0 = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					EE4CD0572CDBBDAB002D00D0 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = EE4CD0412CDBBDA9002D00D0;
+					};
+					EE4CD0612CDBBDAB002D00D0 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = EE4CD0412CDBBDA9002D00D0;
+					};
+				};
+			};
+			buildConfigurationList = EE4CD03D2CDBBDA9002D00D0 /* Build configuration list for PBXProject "Core Location ve Map Kit Kullanimi" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE4CD0392CDBBDA9002D00D0;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = EE4CD0432CDBBDA9002D00D0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE4CD0412CDBBDA9002D00D0 /* Core Location ve Map Kit Kullanimi */,
+				EE4CD0572CDBBDAB002D00D0 /* Core Location ve Map Kit KullanimiTests */,
+				EE4CD0612CDBBDAB002D00D0 /* Core Location ve Map Kit KullanimiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE4CD0402CDBBDA9002D00D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE4CD0562CDBBDAB002D00D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE4CD0602CDBBDAB002D00D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE4CD03E2CDBBDA9002D00D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE4CD0542CDBBDAB002D00D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE4CD05E2CDBBDAB002D00D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EE4CD05A2CDBBDAB002D00D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE4CD0412CDBBDA9002D00D0 /* Core Location ve Map Kit Kullanimi */;
+			targetProxy = EE4CD0592CDBBDAB002D00D0 /* PBXContainerItemProxy */;
+		};
+		EE4CD0642CDBBDAB002D00D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE4CD0412CDBBDA9002D00D0 /* Core Location ve Map Kit Kullanimi */;
+			targetProxy = EE4CD0632CDBBDAB002D00D0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EE4CD06C2CDBBDAB002D00D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Core Location ve Map Kit Kullanimi/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nur.Core-Location-ve-Map-Kit-Kullanimi";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EE4CD06D2CDBBDAB002D00D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Core Location ve Map Kit Kullanimi/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nur.Core-Location-ve-Map-Kit-Kullanimi";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EE4CD06E2CDBBDAB002D00D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EE4CD06F2CDBBDAB002D00D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE4CD0712CDBBDAB002D00D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nur.Core-Location-ve-Map-Kit-KullanimiTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Core Location ve Map Kit Kullanimi.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Core Location ve Map Kit Kullanimi";
+			};
+			name = Debug;
+		};
+		EE4CD0722CDBBDAB002D00D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nur.Core-Location-ve-Map-Kit-KullanimiTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Core Location ve Map Kit Kullanimi.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Core Location ve Map Kit Kullanimi";
+			};
+			name = Release;
+		};
+		EE4CD0742CDBBDAB002D00D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nur.Core-Location-ve-Map-Kit-KullanimiUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Core Location ve Map Kit Kullanimi";
+			};
+			name = Debug;
+		};
+		EE4CD0752CDBBDAB002D00D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nur.Core-Location-ve-Map-Kit-KullanimiUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Core Location ve Map Kit Kullanimi";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE4CD03D2CDBBDA9002D00D0 /* Build configuration list for PBXProject "Core Location ve Map Kit Kullanimi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE4CD06E2CDBBDAB002D00D0 /* Debug */,
+				EE4CD06F2CDBBDAB002D00D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE4CD06B2CDBBDAB002D00D0 /* Build configuration list for PBXNativeTarget "Core Location ve Map Kit Kullanimi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE4CD06C2CDBBDAB002D00D0 /* Debug */,
+				EE4CD06D2CDBBDAB002D00D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE4CD0702CDBBDAB002D00D0 /* Build configuration list for PBXNativeTarget "Core Location ve Map Kit KullanimiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE4CD0712CDBBDAB002D00D0 /* Debug */,
+				EE4CD0722CDBBDAB002D00D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE4CD0732CDBBDAB002D00D0 /* Build configuration list for PBXNativeTarget "Core Location ve Map Kit KullanimiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE4CD0742CDBBDAB002D00D0 /* Debug */,
+				EE4CD0752CDBBDAB002D00D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE4CD03A2CDBBDA9002D00D0 /* Project object */;
+}
